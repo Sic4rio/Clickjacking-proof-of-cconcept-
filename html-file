@@ -25,7 +25,7 @@ console.log("Clickjacking is a technique where an attacker tricks a user into cl
 // Embedding the web application in an iframe
 document.write('<h1 style="color: white;">Your Web Application</h1>');
 document.write('<h2 style="color: white;">Can be Mounted within an iFrame which makes it vulnerable to ClickJacking!</h2>');
-document.write('<iframe src="https://www.URLGOESHERE.com/" height="450" width="1000" style="border: 2px solid red;"></iframe>');
+document.write('<iframe src="https://www.URLGOESHERE.com/" height="600" width="1600" style="border: 2px solid red;"></iframe>');
 
 // Move the background image more towards the center
 document.body.style.backgroundPosition = "center center";
